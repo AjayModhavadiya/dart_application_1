@@ -16,7 +16,7 @@ void main() {
       if (amount >= 1 && amount <= 50000) {
         totalBalance -= amount;
         print(" Withdrawal successful.");
-        print(" Remaining Balance: \$${totalBalance.toStringAsFixed(2)}");
+        print(" Remaining Balance: $totalBalance. ");
       } else {
         print(" Not a valid amount.");
       }
